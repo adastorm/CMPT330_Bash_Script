@@ -1,0 +1,1 @@
+fork waitpid execve exit open close read write lseek stat mkdir rmdir link ln unlink mount umount chdir fflush time ps2pdf man threads kill mktemp chmod chown stdio.h stdlib.h mv rm cp bash sh zsh env lpr intro wc
