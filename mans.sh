@@ -1,12 +1,18 @@
 #!/usr/bin/bash
 
+#Jonah Watts
+
+
 # Loop through every argument
 for i in $@; do
 
     # Check every page
-    echo the command line argument was $i
+    echo -n $i
     for j in {1..9}; do
-        man $i $j > "$i($j).txt"
+        if  man $j $i &> /dev/null ; then
+            man -t ps $j $i | ps2pdf - "$i($j).pdf"
+            echo -n  " "$j
+        fi
     done
+    echo
 done
-
