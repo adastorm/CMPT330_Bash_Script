@@ -1,8 +1,8 @@
-# Bash Script Plan/Psudocode
+# Bash Script Plan/Psudocode
 
 ---
 
-## Game Plan:
+## Game Plan:
 
 1. Get the numbner of command line arguments to loop around teh code multiple times
   
