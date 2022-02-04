@@ -10,7 +10,7 @@ for i in $@; do
     echo -n $i
     for j in {1..9}; do
         if  man $j $i &> /dev/null ; then
-            man -t ps $j $i | ps2pdf - "$i($j).pdf"
+            man -t $j $i | ps2pdf - "$i($j).pdf"
             echo -n  " "$j
         fi
     done
