@@ -1,7 +1,8 @@
 #!/usr/bin/bash
 
 #Jonah Watts
-
+#CMPT330
+#200206
 
 # Loop through every argument
 for i in $@; do
